@@ -21,7 +21,8 @@
     "react-dom": "^18.2.0",
     "react-icons": "^4.9.0",
     "react-tooltip": "^5.14.0",
-    "sass": "^1.62.1"
+    "sass": "^1.62.1",
+    "sweetalert2": "^11.7.12"
   },
   "devDependencies": {
     "@types/react": "^18.0.37",

@@ -18,3 +18,7 @@
   margin: 0;
   scroll-behavior: smooth;
 }
+
+.swal2-popup {
+  font-family: var(--font-base);
+}

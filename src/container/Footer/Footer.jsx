@@ -2,6 +2,7 @@ import { useState, forwardRef, useRef } from 'react';
 import { images } from '../../constants';
 import { motion } from 'framer-motion'
 import emailjs from '@emailjs/browser';
+import Swal from 'sweetalert2'
 import './Footer.scss';
 
 const Footer = forwardRef(function Footer(props, ref){
@@ -34,6 +35,11 @@ const Footer = forwardRef(function Footer(props, ref){
             });
 
         setFormIsSubmited(true)
+        Swal.fire(
+            'Good job!',
+            'Thank you for getting in touch!',
+            'success'
+        )
     };
 
     return (
