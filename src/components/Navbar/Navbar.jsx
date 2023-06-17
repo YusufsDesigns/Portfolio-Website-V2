@@ -23,45 +23,43 @@ const Navbar = () => {
                 ))}
             </ul>
 
-            <div className="app__navbar-menu">
-                <HiMenuAlt4 onClick={() => setAnimate({x: 0, opacity: 1})} />
-
-                    <motion.div
-                        animate={animate}
-                        transition={{duration: 0.85, ease: 'easeInOut'}}
-                        className='menu'
-                    >
-                        <HiX onClick={() => setAnimate({x: 300, opacity: 0})} />
-                        <ul>
-                            {links.map(item => (
-                                <li key={item}>
-                                    <a href={`#${item}`} onClick={() => setAnimate({x: 300, opacity: 0})}>{item}</a>
-                                </li>
-                            ))}
-                            <li>
-                                <a href={images.resume} rel="noreferrer" target="_blank">My Resume</a>
-                            </li>
-                            <div className='app__flex'>
-                                <h2>Let&lsquo;s Collaborate</h2>
-                                <div className='socials'>
-                                    <a href='https://twitter.com/yusuf_Designs' target='blank'>
-                                        <BsTwitter />
-                                    </a>
-                                    <a href='https://www.linkedin.com/in/yusuf-lawal-2b5ab6241/' target='blank'>
-                                        <BsLinkedin />
-                                    </a>
-                                    <a href='https://github.com/YusufsDesigns' target='blank'>
-                                        <BsGithub />
-                                    </a>
-                                    <a href="mailto: yusuf.olaoluwalawal@outlook.com">
-                                        <MdEmail />
-                                    </a>
-                                </div>
-                            </div>
-                        </ul>
-                        
-                    </motion.div>
+            <div className="app__navbar-menu" onClick={() => setAnimate({x: 0, opacity: 1})}>
+                <HiMenuAlt4 />
             </div>
+            <motion.div
+                animate={animate}
+                transition={{duration: 0.85, ease: 'easeInOut'}}
+                className='menu'
+            >
+                <HiX onClick={() => setAnimate({x: 300, opacity: 0})} />
+                <ul>
+                    {links.map(item => (
+                        <li key={item}>
+                            <a href={`#${item}`} onClick={() => setAnimate({x: 300, opacity: 0})}>{item}</a>
+                        </li>
+                    ))}
+                    <li>
+                        <a href={images.resume} rel="noreferrer" target="_blank">My Resume</a>
+                    </li>
+                    <div className='app__flex'>
+                        <h2>Let&lsquo;s Collaborate</h2>
+                        <div className='socials'>
+                            <a href='https://twitter.com/yusuf_Designs' target='blank'>
+                                <BsTwitter />
+                            </a>
+                            <a href='https://www.linkedin.com/in/yusuf-lawal-2b5ab6241/' target='blank'>
+                                <BsLinkedin />
+                            </a>
+                            <a href='https://github.com/YusufsDesigns' target='blank'>
+                                <BsGithub />
+                            </a>
+                            <a href="mailto: yusuf.olaoluwalawal@outlook.com">
+                                <MdEmail />
+                            </a>
+                        </div>
+                    </div>
+                </ul>
+            </motion.div>
         </nav>
     )
 }
