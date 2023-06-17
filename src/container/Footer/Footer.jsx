@@ -27,7 +27,7 @@ const Footer = forwardRef(function Footer(props, ref){
     const sendEmail = (e) => {
         e.preventDefault();
 
-        emailjs.sendForm('service_mnqpkyp', 'template_4r6kbwo', form.current, 'QvXcpoMS3FCqpCHuh')
+        emailjs.sendForm('service_fn10td4', 'template_pmzzvot', form.current, 's30MTv4sbc7gnMZdz')
             .then((result) => {
                 console.log(result.text);
             }, (error) => {
