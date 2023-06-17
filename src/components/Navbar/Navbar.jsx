@@ -7,13 +7,12 @@ import { motion } from 'framer-motion'
 import { useState } from 'react'
 
 const Navbar = () => {
-    const [toggle, setToggle] = useState(false)
+    const [animate, setAnimate] = useState({x: 300, opacity: 0})
     const links = ['home', 'about', 'work', 'skills', 'contact']
     return (
         <nav className='app__navbar'>
             <div className='app__navbar-logo'>
                 <img src={images.logo} alt="" />
-                {/* <img src={images.logo2} className='logo-2' alt="" /> */}
             </div>
             <ul className='app__navbar-links'>
                 {links.map(item => (
@@ -25,19 +24,18 @@ const Navbar = () => {
             </ul>
 
             <div className="app__navbar-menu">
-                <HiMenuAlt4 onClick={() => setToggle(true)} />
+                <HiMenuAlt4 onClick={() => setAnimate({x: 0, opacity: 1})} />
 
-                {toggle && (
                     <motion.div
-                        whileInView={{x: [300, 0]}}
+                        animate={animate}
                         transition={{duration: 0.85, ease: 'easeInOut'}}
                         className='menu'
                     >
-                        <HiX onClick={() => setToggle(false)} />
+                        <HiX onClick={() => setAnimate({x: 300, opacity: 0})} />
                         <ul>
                             {links.map(item => (
                                 <li key={item}>
-                                    <a href={`#${item}`} onClick={() => setToggle(false)}>{item}</a>
+                                    <a href={`#${item}`} onClick={() => setAnimate({x: 300, opacity: 0})}>{item}</a>
                                 </li>
                             ))}
                             <li>
@@ -63,7 +61,6 @@ const Navbar = () => {
                         </ul>
                         
                     </motion.div>
-                )}
             </div>
         </nav>
     )

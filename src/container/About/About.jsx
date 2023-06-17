@@ -22,11 +22,7 @@ const About = forwardRef(function About(props, ref){
                 transition={{ duration: 0.5 }}
             >
                 <h2 className='head-text'>
-                    I Know That
-                    <span> Excellent Delivery </span>
-                    <br />
-                    means
-                    <span> Good Business</span>
+                    My <span>Expertise</span>
                 </h2>
                 <div className="app__profiles">
                     {abouts.slice(0).reverse().map((about, index) => (

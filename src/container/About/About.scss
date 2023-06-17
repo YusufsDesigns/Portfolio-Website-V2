@@ -36,6 +36,16 @@
         }
     }
 
+    @media screen and (max-width: 930px) {
+        .bold-text{
+            font-size: 1.2rem;
+        }
+
+        .p-text{
+            font-size: 18px;
+        }
+    }
+
     @media screen and (min-width: 2000px){
         width: 370px;
         margin: 2rem 4rem;

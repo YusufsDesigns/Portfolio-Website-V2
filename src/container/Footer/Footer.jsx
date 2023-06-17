@@ -50,7 +50,7 @@ const Footer = forwardRef(function Footer(props, ref){
                 transition={{ duration: 0.5 }}
                 className='app__flex app__footer'
             >
-                <h2 className="head-text">Take A Coffe & Chat With Me</h2>
+                <h2 className="head-text">Get In <span>Touch!</span></h2>
                 <div className="app__footer-cards">
                     <div className="app__footer-card">
                         <img src={images.email} alt="email" />

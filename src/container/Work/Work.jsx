@@ -40,9 +40,7 @@ const Work = forwardRef(function Work(props, ref) {
                 transition={{ duration: 0.5 }}
             >
                 <h2 className='head-text'>
-                    My
-                    <span> Projects </span>
-                    Section
+                    My<span> Projects </span>
                 </h2>
                 <div className="app__work-filter">
                     {tabs.map((item, index) => (
