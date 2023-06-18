@@ -10,7 +10,7 @@ export const data = [
     },
     {
         title: 'WinAmp',
-        description: 'A music player web application that allows users stream audio and search for there favorite song or artist.',
+        description: 'A music player web application that allows users to stream audio and search for their favorite song or artist.',
         projectLink: 'https://winamp-music-app.vercel.app/',
         codeLink: 'https://github.com/YusufsDesigns/WinAmp-Music-App',
         imgUrl: 'https://cdn.sanity.io/images/6c2m2nyc/production/1c1f8321fa4637d1084b128a7f1004c5b5307b82-3008x1692.png',
