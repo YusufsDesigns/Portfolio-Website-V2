@@ -27,19 +27,28 @@ const Footer = forwardRef(function Footer(props, ref){
     const sendEmail = (e) => {
         e.preventDefault();
 
-        emailjs.sendForm('service_fn10td4', 'template_pmzzvot', form.current, 's30MTv4sbc7gnMZdz')
-            .then((result) => {
-                console.log(result.text);
-            }, (error) => {
-                console.log(error.text);
-            });
+        if(name === '' || email === '' || message === ''){
+            Swal.fire({
+                icon: 'error',
+                title: 'Oops...',
+                text: 'You need to fill in all the fields!'
+            })
+        } else {
+            emailjs.sendForm('service_fn10td4', 'template_pmzzvot', form.current, 's30MTv4sbc7gnMZdz')
+                .then((result) => {
+                    console.log(result.text);
+                }, (error) => {
+                    console.log(error.text);
+                });
 
-        setFormIsSubmited(true)
-        Swal.fire(
-            'Good job!',
-            'Thank you for getting in touch!',
-            'success'
-        )
+            setFormIsSubmited(true)
+            Swal.fire(
+                'Good job!',
+                'Thank you for getting in touch!',
+                'success'
+            )
+        }
+        
     };
 
     return (
