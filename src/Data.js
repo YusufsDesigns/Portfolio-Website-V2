@@ -1,5 +1,14 @@
 export const data = [
     {
+        title: 'Flair',
+        description: 'An e-commerce web app that allows customers to add products to their cart, search for specific products, filter the products based on the  category of their choice, and view specific products.',
+        projectLink: 'https://flair-ecommerce.web.app/',
+        codeLink: 'https://github.com/YusufsDesigns/Flair',
+        imgUrl: 'https://cdn.sanity.io/images/6c2m2nyc/production/13e0188961530cc842d5d85b581db16b422e8dba-2546x2752.png',
+        tags: ['Web App', 'React JS', 'All'],
+        stacks: ['React JS', 'TypeScript', 'SCSS', 'Commerce.js', 'Context API', 'Firebase', 'Git'],
+    },
+    {
         title: 'sociaLite',
         description: 'A dynamic social media web application designed to connect users, foster engagement, with features such as posts, messages, channels and much more.',
         projectLink: 'https://socialite-yusufsdesigns.vercel.app/',
@@ -52,14 +61,5 @@ export const data = [
         imgUrl: 'https://cdn.sanity.io/images/6c2m2nyc/production/cefedb4c55b5fc19b45c0b5a2dab246983817821-2808x1692.png',
         tags: ['Web App', 'React JS', 'All'],
         stacks: ['React JS', 'CSS', 'Open Trivia DB', 'Git', 'Vercel']
-    },
-    {
-        title: 'Tenzies',
-        description: 'I built a game that allows users to roll a die and click each die to freeze it at its current value between rolls until all dice are the same.',
-        projectLink: 'https://tenzies-amber.vercel.app/',
-        codeLink: 'https://github.com/YusufsDesigns/Tenzies',
-        imgUrl: 'https://cdn.sanity.io/images/6c2m2nyc/production/6c0082437f27f6afca18f0ad462d2640f20bae0e-2808x1692.png',
-        tags: ['Web App', 'React JS', 'All'],
-        stacks: ['React JS', 'CSS', 'Git', 'Vercel']
-    },
+    }
 ]
