@@ -1,10 +1,10 @@
 export const data = [
     {
         title: 'Flair',
-        description: 'An e-commerce web app that allows customers to add products to their cart, search for specific products, filter the products based on the  category of their choice, and view specific products.',
+        description: 'An e-commerce web app that allows customers to add products to their cart, search for specific products, filter the products based on the  category of their choice.',
         projectLink: 'https://flair-ecommerce.web.app/',
         codeLink: 'https://github.com/YusufsDesigns/Flair',
-        imgUrl: 'https://cdn.sanity.io/images/6c2m2nyc/production/13e0188961530cc842d5d85b581db16b422e8dba-2546x2752.png',
+        imgUrl: 'https://cdn.sanity.io/images/6c2m2nyc/production/0b11e3000fd7c28d7e047e8b6b54e9c0127bd64b-2546x1688.png',
         tags: ['Web App', 'React JS', 'All'],
         stacks: ['React JS', 'TypeScript', 'SCSS', 'Commerce.js', 'Context API', 'Firebase', 'Git'],
     },
