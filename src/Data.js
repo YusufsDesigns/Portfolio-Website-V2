@@ -6,7 +6,7 @@ export const data = [
         codeLink: 'https://github.com/YusufsDesigns/Threads',
         imgUrl: 'https://cdn.sanity.io/images/6c2m2nyc/production/41a1d3314ca0df557e0fc3594783999c502a23d2-2476x1689.png',
         tags: ['NEXT.JS', 'React JS', 'All'],
-        stacks: ['NEXT.JS', 'React JS', 'TypeScript', 'Clerk', 'Shadcn', 'uploadthing', 'Git'],
+        stacks: ['NEXT.JS', 'React JS', 'TypeScript', 'Clerk', 'Shadcn', 'uploadthing', 'MongoDB', 'Mongoose', 'Git'],
     },
     {
         title: 'Flair',
