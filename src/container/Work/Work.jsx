@@ -11,7 +11,7 @@ const Work = forwardRef(function Work(props, ref) {
     const [works, setWorks] = useState([])
     const [filterWork, setFilterWork] = useState([])
 
-    const tabs = ['React JS', 'All']
+    const tabs = ['NEXT.JS', 'React JS', 'All']
 
     const handleWorkFilter = (item) => {
         setActiveFilter(item)

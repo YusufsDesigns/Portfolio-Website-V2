@@ -1,5 +1,14 @@
 export const data = [
     {
+        title: 'Threads',
+        description: 'Discover, connect, and engage with a vibrant social media web app. Seamlessly connect with friends and create or join communities tailored to specific topics, fostering meaningful interactions and shared interests. Your digital space for connection and community awaits!',
+        projectLink: 'https://threads-yusufsdesigns.vercel.app/',
+        codeLink: 'https://github.com/YusufsDesigns/Threads',
+        imgUrl: 'https://cdn.sanity.io/images/6c2m2nyc/production/41a1d3314ca0df557e0fc3594783999c502a23d2-2476x1689.png',
+        tags: ['NEXT.JS', 'React JS', 'All'],
+        stacks: ['NEXT.JS', 'React JS', 'TypeScript', 'Clerk', 'Shadcn', 'uploadthing', 'Git'],
+    },
+    {
         title: 'Flair',
         description: 'An e-commerce web app that allows customers to add products to their cart, search for specific products, filter the products based on the  category of their choice.',
         projectLink: 'https://flair-ecommerce.web.app/',
@@ -52,14 +61,5 @@ export const data = [
         imgUrl: 'https://cdn.sanity.io/images/6c2m2nyc/production/825e78329cd9b9486f2ed2d7eabad4caf3fa181c-3008x1692.png',
         tags: ['Web App', 'All'],
         stacks: ['HTML', 'CSS', 'JavaScript', 'WeatherAPI', 'Git', 'Vercel']
-    },
-    {
-        title: 'Quizzical',
-        description: 'A quiz app that tests the knowledge of a person through complex trivia questions and grades them at the end.',
-        projectLink: 'https://quizzical-lemon.vercel.app/',
-        codeLink: 'https://github.com/YusufsDesigns/Quizzical',
-        imgUrl: 'https://cdn.sanity.io/images/6c2m2nyc/production/cefedb4c55b5fc19b45c0b5a2dab246983817821-2808x1692.png',
-        tags: ['Web App', 'React JS', 'All'],
-        stacks: ['React JS', 'CSS', 'Open Trivia DB', 'Git', 'Vercel']
     }
 ]
