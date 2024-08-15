@@ -37,7 +37,7 @@ import nb from '../assets/nb.png';
 import skype from '../assets/skype.png';
 import spotify from '../assets/spotify.png';
 
-import resume from '../assets/My Resume.pdf';
+import resume from '../assets/My_Resume.pdf';
 
 export default {
     resume,
