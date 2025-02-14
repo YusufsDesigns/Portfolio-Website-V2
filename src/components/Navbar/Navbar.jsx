@@ -1,7 +1,7 @@
 import './Navbar.scss'
 import { images } from '../../constants' 
 import { HiMenuAlt4, HiX } from 'react-icons/hi'
-import { BsTwitter, BsLinkedin, BsGithub } from 'react-icons/bs'
+import { BsLinkedin, BsGithub, BsTwitterX } from 'react-icons/bs'
 import { MdEmail } from 'react-icons/md'
 import { motion } from 'framer-motion'
 import { useState } from 'react'
@@ -44,8 +44,8 @@ const Navbar = () => {
                     <div className='app__flex'>
                         <h2>Let&lsquo;s Collaborate</h2>
                         <div className='socials'>
-                            <a href='https://twitter.com/yusuf_Designs' target='blank'>
-                                <BsTwitter />
+                            <a href='https://x.com/dev_lawal' target='blank'>
+                                <BsTwitterX />
                             </a>
                             <a href='https://www.linkedin.com/in/yusuf-lawal-2b5ab6241/' target='blank'>
                                 <BsLinkedin />
