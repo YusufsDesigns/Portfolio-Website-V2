@@ -183,11 +183,20 @@
     // border-radius: 50%;
     // overflow: hidden;
 
+    .image{
+        object-fit: contain;
+    }
+
     img{
         width: 100%;
+        height: 700px;
         object-fit: contain;
         z-index: 1;
         border-radius: 50%;
+
+        @media screen and (max-width: 450px) {
+            height: auto;
+        }
     }
 
     .overlay_circle{
