@@ -1,12 +1,12 @@
-import { BsTwitter, BsLinkedin, BsGithub, BsFileEarmarkPdfFill } from 'react-icons/bs'
+import { BsLinkedin, BsGithub, BsFileEarmarkPdfFill, BsX } from 'react-icons/bs'
 import { MdEmail } from 'react-icons/md'
 import { images } from '../constants'
 
 const SocialMedia = () => {
     return (
         <div className='app__social'>
-            <a href='https://twitter.com/yusuf_Designs' target='blank'>
-                <BsTwitter />
+            <a href='https://x.com/dev_lawal' target='blank'>
+                <BsX />
             </a>
             <a href='https://www.linkedin.com/in/yusuf-lawal-2b5ab6241/' target='blank'>
                 <BsLinkedin />
